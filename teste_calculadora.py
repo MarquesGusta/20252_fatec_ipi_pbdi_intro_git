@@ -10,3 +10,6 @@ print(f'{a} - {b} = {subtracao}')
 
 produto = calculadora.mutiplicar(a, b)
 print(f'{a} x {b} = {produto}')
+
+quociente = calculadora.dividir(a, b)
+print(f'{a} / {b} = {quociente}')
