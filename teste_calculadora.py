@@ -7,3 +7,6 @@ print(f'{a} + {b} = {soma}')
 
 subtracao = calculadora.subtrair(a, b)
 print(f'{a} - {b} = {subtracao}')
+
+produto = calculadora.mutiplicar(a, b)
+print(f'{a} x {b} = {produto}')
