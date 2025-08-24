@@ -16,3 +16,9 @@ def menu():
 
           subtracao = calculadora.subtrair(a, b)
           print(f"{a} - {b} = {subtracao}")
+     elif opcao == "3":
+          a = int(input("Informe o primeiro número: "))
+          b = int(input("Informe o segundo número: "))
+
+          multiplicacao = calculadora.mutiplicar(a, b)
+          print(f"{a} x {b} = {multiplicacao}")
