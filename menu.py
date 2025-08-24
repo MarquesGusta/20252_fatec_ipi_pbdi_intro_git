@@ -22,3 +22,11 @@ def menu():
 
           multiplicacao = calculadora.mutiplicar(a, b)
           print(f"{a} x {b} = {multiplicacao}")
+     elif opcao == "4":
+          a = int(input("Informe o primeiro número: "))
+          b = int(input("Informe o segundo número: "))
+
+          divisao = calculadora.dividir(a, b)
+          print(f"{a} / {b} = {divisao}")
+
+print(menu())
