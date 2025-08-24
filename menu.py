@@ -28,5 +28,7 @@ def menu():
 
           divisao = calculadora.dividir(a, b)
           print(f"{a} / {b} = {divisao}")
+     elif opcao == "0":
+          print("Saindo...")
 
 print(menu())
